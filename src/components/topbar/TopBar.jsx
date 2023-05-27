@@ -5,10 +5,10 @@ const TopBar = () => {
   return (
     <div className="top">
       <div className="topLeft">
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-pinterest"></i>
-        <i class="fa-brands fa-instagram"></i>
+        <i class="topIcon fa-brands fa-facebook"></i>
+        <i class="topIcon fa-brands fa-twitter"></i>
+        <i class="topIcon fa-brands fa-pinterest"></i>
+        <i class="topIcon fa-brands fa-instagram"></i>
       </div>
       <div className="topCenter">
         <ul className="topList">
@@ -19,7 +19,10 @@ const TopBar = () => {
           <li className="topListItem">LOGOUT</li>
         </ul>
       </div>
-      <div className="topRight">Right</div>
+      <div className="topRight">
+      <img className="topImg" src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="profile picture" />
+      <i class="topSearchIcon fas fa-search"></i>
+      </div>
     </div>
   );
 };
